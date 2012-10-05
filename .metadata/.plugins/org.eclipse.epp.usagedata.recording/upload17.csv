@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399781734
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399781834
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399781835
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399781935
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399781936
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399782036
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399782036
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399782037
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399782037
+started,bundle,org.eclipse.cdt.launch,6.0.0.200909110608,"org.eclipse.cdt.launch",1349399782143
+error,log,,,"sun.awt.X11.XlibWrapper",1349399782563
+error,log,,,"SOPC design not set.",1349399783948
+error,log,,,"CPU module not set.",1349399783948
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1349399783949
+error,log,,,"CPU architecture type not set. ",1349399783949
+error,log,,,"CPU master group not set.",1349399783949
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399783949
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399783950
+started,bundle,com.altera.debug.cdi.gdb.plugin,10.0.0.218,"com.altera.debug.cdi.gdb.plugin",1349399787352
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399787431
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399787431
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399787468
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399787468
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1349399787490
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1349399787571

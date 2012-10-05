@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807450
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807481
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807481
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807483
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807483
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807514
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807514
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807514
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807515
+error,log,,,"Connected system ID hash not found on target at expected base address.",1349399808717
+error,log,,,"Connected system timestamp not found on target at expected base address.",1349399808717
+error,log,,,"Connected system ID hash not found on target at expected base address.",1349399808764
+error,log,,,"Connected system timestamp not found on target at expected base address.",1349399808764
+error,log,,,"Connected system ID hash not found on target at expected base address.",1349399808768
+error,log,,,"Connected system timestamp not found on target at expected base address.",1349399808768
+error,log,,,"Connected system ID hash not found on target at expected base address.",1349399808800
+error,log,,,"Connected system timestamp not found on target at expected base address.",1349399808800
+error,log,,,"Connected system ID hash not found on target at expected base address.",1349399808804
+error,log,,,"Connected system timestamp not found on target at expected base address.",1349399808805
+error,log,,,"Connected system ID hash not found on target at expected base address.",1349399808835
+error,log,,,"Connected system timestamp not found on target at expected base address.",1349399808836
+error,log,,,"SOPC design not set.",1349399808840
+error,log,,,"CPU module not set.",1349399808840
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1349399808840
+error,log,,,"CPU architecture type not set. ",1349399808840

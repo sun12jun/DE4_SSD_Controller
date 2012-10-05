@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1349399790487
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1349399790609
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1349399790627
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1349399794906
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1349399796886
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798583
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798583
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798684
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798685
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798785
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798786
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798886
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798886
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798986
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798986
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799087
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799088
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799188
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799188
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799288
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799288
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799388
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799388
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799488
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799488

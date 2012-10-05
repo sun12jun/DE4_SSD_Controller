@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"CPU master group not set.",1349399808841
+error,log,,,"SOPC design not set.",1349399808871
+error,log,,,"CPU module not set.",1349399808871
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1349399808871
+error,log,,,"CPU architecture type not set. ",1349399808872
+error,log,,,"CPU master group not set.",1349399808872
+error,log,,,"SOPC design not set.",1349399808910
+error,log,,,"CPU module not set.",1349399808910
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1349399808910
+error,log,,,"CPU architecture type not set. ",1349399808910
+error,log,,,"CPU master group not set.",1349399808911
+error,log,,,"SOPC design not set.",1349399809011
+error,log,,,"CPU module not set.",1349399809012
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1349399809012
+error,log,,,"CPU architecture type not set. ",1349399809012
+error,log,,,"CPU master group not set.",1349399809012
+error,log,,,"SOPC design not set.",1349399809108
+error,log,,,"CPU module not set.",1349399809108
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1349399809109
+error,log,,,"CPU architecture type not set. ",1349399809109
+error,log,,,"CPU master group not set.",1349399809109
+error,log,,,"SOPC design not set.",1349399809178
+error,log,,,"CPU module not set.",1349399809178
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1349399809179
+error,log,,,"CPU architecture type not set. ",1349399809179
