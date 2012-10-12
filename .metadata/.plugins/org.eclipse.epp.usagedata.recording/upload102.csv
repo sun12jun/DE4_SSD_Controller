@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047462859
+error,log,,,"CPU architecture type not set. ",1350047462859
+error,log,,,"CPU master group not set.",1350047462859
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047462859
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047462860
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047462885
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047462887
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047462912
+error,log,,,"SOPC design not set.",1350047462912
+error,log,,,"CPU module not set.",1350047462912
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047462913
+error,log,,,"CPU architecture type not set. ",1350047462913
+error,log,,,"CPU master group not set.",1350047462913
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047462914
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047462915
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047462940
+error,log,,,"SOPC design not set.",1350047462940
+error,log,,,"CPU module not set.",1350047462942
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047462943
+error,log,,,"CPU architecture type not set. ",1350047462943
+error,log,,,"CPU master group not set.",1350047462943
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047462944
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047462945
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047462972
+error,log,,,"SOPC design not set.",1350047462973

@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/schema">
         <BspType>ucosii</BspType>
         <BspVersion>10.0</BspVersion>
-        <BspGeneratedTimeStamp>2012. 10. 5 오전 10:15:02</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1349399702415</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>2012. 10. 13 오전 12:01:21</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1350054081097</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\ydj\Workspace\DE4_DDR2_NIOS10.1\software\DE4_software_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\DE4_SOPC.sopcinfo</SopcDesignFile>
@@ -1745,8 +1745,14 @@
                 <attributes>memory</attributes>
         </MemoryMap>
         <MemoryMap>
+                <slaveDescriptor>dma_0</slaveDescriptor>
+                <addressRange>0x41041000 - 0x4104101F</addressRange>
+                <addressSpan>32</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
                 <slaveDescriptor>jtag_uart</slaveDescriptor>
-                <addressRange>0x41041000 - 0x41041007</addressRange>
+                <addressRange>0x41041020 - 0x41041027</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>
@@ -1818,5 +1824,10 @@
                 <name>altera_avalon_jtag_uart_driver</name>
                 <version>default</version>
                 <moduleName>jtag_uart</moduleName>
+        </DriverPackageInfo>
+        <DriverPackageInfo>
+                <name>altera_avalon_dma_driver</name>
+                <version>default</version>
+                <moduleName>dma_0</moduleName>
         </DriverPackageInfo>
 </sch:Settings>

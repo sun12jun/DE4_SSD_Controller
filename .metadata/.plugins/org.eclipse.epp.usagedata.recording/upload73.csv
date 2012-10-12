@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047423400
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047423400
+error,log,,,"SOPC design not set.",1350047423400
+error,log,,,"CPU module not set.",1350047423401
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047423401
+error,log,,,"CPU architecture type not set. ",1350047423401
+error,log,,,"CPU master group not set.",1350047423401
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047423401
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047423402
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047423402
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047423402
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047423431
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047423431
+error,log,,,"SOPC design not set.",1350047423432
+error,log,,,"CPU module not set.",1350047423432
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047423432
+error,log,,,"CPU architecture type not set. ",1350047423432
+error,log,,,"CPU master group not set.",1350047423432
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047423433
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047423433
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047423434
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047423434
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047423459
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047423459
+error,log,,,"SOPC design not set.",1350047423460

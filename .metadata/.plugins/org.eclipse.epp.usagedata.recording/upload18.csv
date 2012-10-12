@@ -1,26 +1,26 @@
 what,kind,bundleId,bundleVersion,description,time
-deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1349399790487
-activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1349399790609
-executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1349399790627
-deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1349399794906
-activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1349399796886
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798583
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798583
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798684
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798685
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798785
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798786
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798886
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798886
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798986
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399798986
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799087
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799088
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799188
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799188
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799288
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799288
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799388
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799388
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799488
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799488
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350008014890
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350008025556
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.selectAll",1350008037621
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1350008040389
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1350008040960
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1350008045879
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1350008048705
+executed,command,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.edit.text.c.toggle.comment",1350008049794
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1350008050842
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildAll",1350008051161
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008051470
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008055823
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1350008057610
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008061032
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008062956
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1350008064640
+activated,view,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1350008066292
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1350008069879
+activated,view,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1350008076644
+opened,view,org.eclipse.ui.views,3.4.1.M20090826-0800,"org.eclipse.ui.views.PropertySheet",1350008082511
+activated,view,org.eclipse.ui.views,3.4.1.M20090826-0800,"org.eclipse.ui.views.PropertySheet",1350008082520
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1350008083434
+activated,view,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1350008085073
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350008093253
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350008097316

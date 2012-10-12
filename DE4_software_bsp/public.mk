@@ -134,9 +134,9 @@ SOPC_NAME := DE4_SOPC
 ELF_PATCH_FLAG  += --simulation_enabled false
 
 # The SOPC System ID 
-# setting SOPC_SYSID is 1543514508
-SOPC_SYSID_FLAG += --id=1543514508
-ELF_PATCH_FLAG  += --id 1543514508
+# setting SOPC_SYSID is 1333595182
+SOPC_SYSID_FLAG += --id=1333595182
+ELF_PATCH_FLAG  += --id 1333595182
 
 # The SOPC System ID Base Address 
 # setting SOPC_SYSID_BASE_ADDRESS is 0x40000070
@@ -144,9 +144,9 @@ SOPC_SYSID_FLAG += --sidp=0x40000070
 ELF_PATCH_FLAG  += --sidp 0x40000070
 
 # The SOPC Timestamp 
-# setting SOPC_TIMESTAMP is 1349258764
-SOPC_SYSID_FLAG += --timestamp=1349258764
-ELF_PATCH_FLAG  += --timestamp 1349258764
+# setting SOPC_TIMESTAMP is 1350053308
+SOPC_SYSID_FLAG += --timestamp=1350053308
+ELF_PATCH_FLAG  += --timestamp 1350053308
 
 # Small-footprint (polled mode) driver none 
 # setting altera_avalon_jtag_uart_driver.enable_small_driver is false

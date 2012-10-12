@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047463060
+error,log,,,"CPU architecture type not set. ",1350047463061
+error,log,,,"CPU master group not set.",1350047463061
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047463061
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047463063
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047463089
+error,log,,,"SOPC design not set.",1350047463089
+error,log,,,"CPU module not set.",1350047463089
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047463089
+error,log,,,"CPU architecture type not set. ",1350047463090
+error,log,,,"CPU master group not set.",1350047463090
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047463090
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047463092
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047463117
+error,log,,,"SOPC design not set.",1350047463117
+error,log,,,"CPU module not set.",1350047463117
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047463118
+error,log,,,"CPU architecture type not set. ",1350047463118
+error,log,,,"CPU master group not set.",1350047463118
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047463119
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047463120
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047463146
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047463148
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047463176
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047463176

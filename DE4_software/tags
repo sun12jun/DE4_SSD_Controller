@@ -1,0 +1,110 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALTERA_AVALON_JTAG_UART_BUF_LEN	.\isr.h	14;"	d
+ALTERA_AVALON_JTAG_UART_DEFAULT_TIMEOUT	.\isr.h	13;"	d
+ALT_JTAG_UART_READ_RDY	.\isr.h	23;"	d
+ALT_JTAG_UART_TIMEOUT	.\isr.h	25;"	d
+ALT_JTAG_UART_WRITE_RDY	.\isr.h	24;"	d
+CHAR_BACKSPACE	.\shell.h	16;"	d
+CHAR_CR	.\shell.h	14;"	d
+CHAR_DOWN	.\shell.h	21;"	d
+CHAR_ESC	.\shell.h	15;"	d
+CHAR_LEFT	.\shell.h	23;"	d
+CHAR_LF	.\shell.h	13;"	d
+CHAR_RIGHT	.\shell.h	22;"	d
+CHAR_SPACE	.\shell.h	18;"	d
+CHAR_TAB	.\shell.h	17;"	d
+CHAR_UP	.\shell.h	20;"	d
+GetToken	.\shell.c	/^INT16U GetToken(INT8S **token, INT8S *string)$/;"	f
+IntToStr	.\shell.c	/^void IntToStr(INT8S *str, INT32S value, INT32S radix)$/;"	f
+Interpreter	.\shell.c	/^void Interpreter(INT8S **token, INT16U num)$/;"	f
+SEM_REPORT	.\main.c	/^OS_EVENT *SEM_REPORT;$/;"	v
+SEM_REPORT	.\report.c	/^OS_EVENT *SEM_REPORT;$/;"	v
+SHELL_H_	.\shell.h	9;"	d
+StrToInt	.\shell.c	/^INT32U StrToInt(INT8S *str, INT32U radix)$/;"	f
+TASK_GPIO_PRIORITY	.\main.c	30;"	d	file:
+TASK_GPIO_STACKSIZE	.\main.c	17;"	d	file:
+TASK_REPORT_PRIORITY	.\main.c	29;"	d	file:
+TASK_REPORT_STACKSIZE	.\main.c	19;"	d	file:
+TASK_SHELL_PRIORITY	.\main.c	28;"	d	file:
+TASK_SHELL_STACKSIZE	.\main.c	18;"	d	file:
+TASK_START_PRIORITY	.\main.c	31;"	d	file:
+TASK_START_STACKSIZE	.\main.c	20;"	d	file:
+_C	.\my_ctype.h	17;"	d
+_D	.\my_ctype.h	16;"	d
+_ISR_H_	.\isr.h	2;"	d
+_JTAG_UART_H_	.\jtag_uart.h	2;"	d
+_L	.\my_ctype.h	15;"	d
+_MY_CTYPE_H_	.\my_ctype.h	7;"	d
+_P	.\my_ctype.h	18;"	d
+_REPORT_H_	.\report.h	2;"	d
+_S	.\my_ctype.h	19;"	d
+_SP	.\my_ctype.h	21;"	d
+_TASKS_H_	.\tasks.h	2;"	d
+_U	.\my_ctype.h	14;"	d
+_X	.\my_ctype.h	20;"	d
+__ALT_UCOSII_SIMPLE_ERROR_CHECK_H__	.\alt_ucosii_simple_error_check.h	8;"	d
+__ismask	.\my_ctype.h	49;"	d
+__tolower	.\my_ctype.h	/^static inline unsigned char __tolower(unsigned char c)$/;"	f
+__toupper	.\my_ctype.h	/^static inline unsigned char __toupper(unsigned char c)$/;"	f
+_ctype	.\my_ctype.h	/^unsigned char _ctype[] = {$/;"	v
+alarm	.\isr.h	/^  alt_alarm     alarm;$/;"	m	struct:alt_avn_jtag_uart_state_s
+alt_avn_jtag_uart_read	.\jtag_uart.c	/^int alt_avn_jtag_uart_read(alt_avn_jtag_uart_state* sp, $/;"	f
+alt_avn_jtag_uart_state	.\isr.h	/^} alt_avn_jtag_uart_state;$/;"	t	typeref:struct:alt_avn_jtag_uart_state_s
+alt_avn_jtag_uart_state_s	.\isr.h	/^typedef struct alt_avn_jtag_uart_state_s$/;"	s
+alt_avn_jtag_uart_write	.\jtag_uart.c	/^int alt_avn_jtag_uart_write(alt_avn_jtag_uart_state* sp, $/;"	f
+alt_ucosii_check_return_code	.\alt_ucosii_simple_error_check.c	/^void alt_ucosii_check_return_code(INT8U return_code)$/;"	f
+alt_ucosii_simple_error_handler	.\alt_ucosii_simple_error_check.c	/^void alt_ucosii_simple_error_handler(INT8U return_code)$/;"	f
+base	.\isr.h	/^  unsigned int base;$/;"	m	struct:alt_avn_jtag_uart_state_s
+edge_capture	.\isr.h	/^volatile int edge_capture;$/;"	v
+event_create	.\main.c	/^void event_create(void)$/;"	f
+get_info	.\shell.c	/^void get_info()$/;"	f
+handle_button_interrupts	.\isr.c	/^static void handle_button_interrupts(void* context)$/;"	f	file:
+host_inactive	.\isr.h	/^  unsigned int  host_inactive;$/;"	m	struct:alt_avn_jtag_uart_state_s
+init_button_pio	.\isr.c	/^static void init_button_pio()$/;"	f	file:
+init_interrupts	.\isr.c	/^void init_interrupts()$/;"	f
+irq_enable	.\isr.h	/^  unsigned int  irq_enable;$/;"	m	struct:alt_avn_jtag_uart_state_s
+isalnum	.\my_ctype.h	51;"	d
+isalpha	.\my_ctype.h	52;"	d
+isascii	.\my_ctype.h	63;"	d
+iscntrl	.\my_ctype.h	53;"	d
+isdigit	.\my_ctype.h	54;"	d
+isgraph	.\my_ctype.h	55;"	d
+islower	.\my_ctype.h	56;"	d
+isprint	.\my_ctype.h	57;"	d
+ispunct	.\my_ctype.h	58;"	d
+isspace	.\my_ctype.h	59;"	d
+isupper	.\my_ctype.h	60;"	d
+isxdigit	.\my_ctype.h	61;"	d
+jtag_uart_context	.\isr.h	/^alt_avn_jtag_uart_state *jtag_uart_context;$/;"	v
+jtag_uart_rx_byte	.\jtag_uart.c	/^INT8U jtag_uart_rx_byte()$/;"	f
+jtag_uart_tx_byte	.\jtag_uart.c	/^void jtag_uart_tx_byte(INT8U chr)$/;"	f
+jtag_uart_tx_byte_checkcr	.\jtag_uart.c	/^void jtag_uart_tx_byte_checkcr(INT8U chr)$/;"	f
+jtag_uart_tx_str	.\jtag_uart.c	/^void jtag_uart_tx_str(char *str)$/;"	f
+led_table	.\gpio_task.c	/^char led_table[8] = {0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80};$/;"	v
+main	.\main.c	/^int main(void)$/;"	f
+rx_buf	.\isr.h	/^  char          rx_buf[ALTERA_AVALON_JTAG_UART_BUF_LEN];$/;"	m	struct:alt_avn_jtag_uart_state_s
+rx_in	.\isr.h	/^  volatile unsigned int rx_in;$/;"	m	struct:alt_avn_jtag_uart_state_s
+rx_out	.\isr.h	/^  unsigned int  rx_out;$/;"	m	struct:alt_avn_jtag_uart_state_s
+task_7seg	.\seven_seg_task.c	/^void task_7seg(void* pdata)$/;"	f
+task_create	.\main.c	/^void task_create(void)$/;"	f
+task_gpio	.\gpio_task.c	/^void task_gpio(void* pdata)$/;"	f
+task_gpio_stk	.\main.c	/^OS_STK    task_gpio_stk[TASK_GPIO_STACKSIZE];$/;"	v
+task_report	.\report.c	/^void task_report(void *parg)$/;"	f
+task_report_stk	.\main.c	/^OS_STK    task_report_stk[TASK_REPORT_STACKSIZE];$/;"	v
+task_shell	.\shell.c	/^void task_shell(void *parg)$/;"	f
+task_shell_stk	.\main.c	/^OS_STK    task_shell_stk[TASK_SHELL_STACKSIZE];$/;"	v
+task_start	.\main.c	/^void task_start(void *parg)$/;"	f
+task_start_stk	.\main.c	/^OS_STK    task_start_stk[TASK_START_STACKSIZE];$/;"	v
+timeout	.\isr.h	/^  unsigned int  timeout; \/* Timeout until host is assumed inactive *\/$/;"	m	struct:alt_avn_jtag_uart_state_s
+toascii	.\my_ctype.h	64;"	d
+tolower	.\my_ctype.h	80;"	d
+toupper	.\my_ctype.h	81;"	d
+tx_buf	.\isr.h	/^  char          tx_buf[ALTERA_AVALON_JTAG_UART_BUF_LEN];$/;"	m	struct:alt_avn_jtag_uart_state_s
+tx_in	.\isr.h	/^  unsigned int  tx_in;$/;"	m	struct:alt_avn_jtag_uart_state_s
+tx_out	.\isr.h	/^  volatile unsigned int tx_out;$/;"	m	struct:alt_avn_jtag_uart_state_s
+viewlogo	.\shell.c	/^void viewlogo()$/;"	f

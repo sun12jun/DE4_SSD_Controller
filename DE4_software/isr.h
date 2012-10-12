@@ -2,13 +2,12 @@
 #define	_ISR_H_
 
 #include <stddef.h>
-
 #include "sys/alt_alarm.h"
 #include "sys/alt_warning.h"
-
 #include "os/alt_sem.h"
 #include "os/alt_flag.h"
-
+#include "sys/alt_dma.h"
+#include "altera_avalon_dma.h"
 
 #define ALTERA_AVALON_JTAG_UART_DEFAULT_TIMEOUT 10
 #define ALTERA_AVALON_JTAG_UART_BUF_LEN 2048
@@ -29,8 +28,7 @@ typedef struct alt_avn_jtag_uart_state_s
 {
   unsigned int base;
 
- 
-  unsigned int  timeout; /* Timeout until host is assumed inactive */
+  unsigned int  timeout; /* timeout until host is assumed inactive */
   alt_alarm     alarm;
   unsigned int  irq_enable;
   unsigned int  host_inactive;
@@ -39,8 +37,8 @@ typedef struct alt_avn_jtag_uart_state_s
   ALT_SEM      (write_lock)
   ALT_FLAG_GRP (events)
   
-  /* The variables below are volatile because they are modified by the
-   * interrupt routine.  Making them volatile and reading them atomically
+  /* the variables below are volatile because they are modified by the
+   * interrupt routine.  making them volatile and reading them atomically
    * means that we don't need any large critical sections.
    */
   volatile unsigned int rx_in;
@@ -52,14 +50,26 @@ typedef struct alt_avn_jtag_uart_state_s
 
 } alt_avn_jtag_uart_state;
 
+typedef struct dma_context_state_s
+{
+	alt_dma_txchan txchan;
+	alt_dma_rxchan rxchan;
 
+	volatile unsigned int src;
+	volatile unsigned int dst;
+	unsigned int len;
 
+	unsigned int dma_done;
+
+	void (*done_callback) (void *, void *);
+
+} dma_context_state;
+
+// interrupt context declaration
 volatile int edge_capture;
+dma_context_state *dma_context;
 alt_avn_jtag_uart_state *jtag_uart_context;
 
-
-void alt_avn_jtag_uart_init(alt_avn_jtag_uart_state* sp, int irq_controller_id, int irq);
 void init_interrupts();
 
-
-#endif
+#endif // !_ISR_H_

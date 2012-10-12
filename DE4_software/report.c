@@ -16,31 +16,25 @@
 OS_EVENT *SEM_REPORT;
 
 /*	Local function declaration	*/
-static void ViewLogo();
+extern void viewlogo();
+extern void get_info();
 
 /*-----------------------------------------------------------*/
 void task_report(void *parg)
 {
 	INT8U err;
 
-	ViewLogo();
+	viewlogo();
 
 	for(;;)
 	{
 		OSSemPend(SEM_REPORT, 0, &err);
 
+		printf("report is start..\n");
+		get_info();
 		printf("report is done\n");
 
-		ViewLogo();
-		 //OSTimeDlyHMSM(0, 0, 0, 10);
+//		OSTimeDlyHMSM(0, 0, 0, 0);
 	}
-}
-
-static void ViewLogo()
-{
-	printf("\n");
-	printf("***************************************************\n");
-	printf("*                        DE4_SSD                  *\n");
-	printf("***************************************************\n");
 }
 

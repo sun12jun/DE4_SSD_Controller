@@ -1,0 +1,184 @@
+/****************************************************************************
+ * Copyright (c) 2004 Altera Corporation, San Jose, California, USA.      	*
+ * and																		*
+ * DJ Yoon has modified this provided example								*
+  **************************************************************************/
+
+#include <stdio.h>
+#include <io.h>
+#include "includes.h"
+#include "uart.h"
+#include "shell.h"
+#include "isr.h"
+#include "tasks.h"
+#include "report.h"
+#include "alt_ucosii_simple_error_check.h"
+
+/* Definition of Task Stacks */
+#define   TASK_GPIO_STACKSIZE       1024
+//#define   TASK_7SEG_STACKSIZE       1024
+//#define   TASK_UART_STACKSIZE       1024
+#define   TASK_SHELL_STACKSIZE      1024
+#define   TASK_REPORT_STACKSIZE      1024
+#define   TASK_START_STACKSIZE     128 
+
+OS_STK    task_gpio_stk[TASK_GPIO_STACKSIZE];
+//OS_STK    task_7seg_stk[TASK_7SEG_STACKSIZE];
+//OS_STK    task_uart_stk[TASK_UART_STACKSIZE];
+//OS_STK    task_shell_stk[TASK_SHELL_STACKSIZE];
+OS_STK    task_report_stk[TASK_REPORT_STACKSIZE];
+OS_STK    task_start_stk[TASK_START_STACKSIZE];
+
+/* Definition of Task Priorities */
+//#define TASK_UART_PRIORITY		1
+//#define TASK_SHELL_PRIORITY    	2
+#define TASK_REPORT_PRIORITY    1
+//#define TASK_7SEG_PRIORITY     	3
+#define TASK_GPIO_PRIORITY     	2
+#define TASK_START_PRIORITY    	3
+
+/*	Task Declaration	*/
+void task_start(void *);
+
+/*	Semaphore Declaration	*/
+//OS_EVENT *SEM_JTAG_UART_READ;
+//OS_EVENT *SEM_JTAG_UART_WRITE;
+OS_EVENT *SEM_REPORT;
+
+/*	Local Function Declaration	*/
+void task_create(void);
+void event_create(void);
+
+
+//-------------------------------------------------------------------------------
+//	The main fuction
+//-------------------------------------------------------------------------------
+int main(void)
+{
+	INT8U err;
+
+	OSInit();
+
+	err = OSTaskCreateExt(task_start, 
+					NULL,
+					(OS_STK *)&task_start_stk[TASK_START_STACKSIZE-1],
+					TASK_START_PRIORITY,
+					TASK_START_PRIORITY,
+					(OS_STK *)&task_start_stk[0],
+					TASK_START_STACKSIZE,
+					NULL,
+					OS_TASK_OPT_STK_CHK | OS_TASK_OPT_STK_CLR);
+
+	//alt_ucosii_check_return_code(err);
+
+	OSStart();
+
+	return 0;
+}
+
+
+
+void task_start(void *parg)
+{
+	event_create();
+
+	init_interrupts();
+
+	task_create();
+
+	while(1){
+		OSTimeDlyHMSM(0, 0, 0, 50);
+	}
+}
+
+//-------------------------------------------------------------------------------
+
+void task_create(void)
+{
+	INT8U err;
+	
+	//---------------------------------------------------------------------------
+	//	TASK GPIO
+	//---------------------------------------------------------------------------                                                                
+	err = OSTaskCreateExt(task_gpio,
+			NULL,
+			(void *)&task_gpio_stk[TASK_GPIO_STACKSIZE-1],
+			TASK_GPIO_PRIORITY,
+			TASK_GPIO_PRIORITY,
+			task_gpio_stk,
+			TASK_GPIO_STACKSIZE,
+			NULL,
+			0);
+
+//	alt_ucosii_check_return_code(err);
+
+	//---------------------------------------------------------------------------
+	//	TASK REPORT
+	//---------------------------------------------------------------------------                                                                
+	err = OSTaskCreateExt(task_report,
+			NULL,
+			(void *)&task_report_stk[TASK_REPORT_STACKSIZE-1],
+			TASK_REPORT_PRIORITY,
+			TASK_REPORT_PRIORITY,
+			task_report_stk,
+			TASK_REPORT_STACKSIZE,
+			NULL,
+			0);
+
+//	alt_ucosii_check_return_code(err);
+
+	//---------------------------------------------------------------------------
+	//	TASK UART
+	//---------------------------------------------------------------------------                                                                
+//	err = OSTaskCreateExt(task_uart,
+//			NULL,
+//			(void *)&task_uart_stk[TASK_UART_STACKSIZE-1],
+//			TASK_UART_PRIORITY,
+//			TASK_UART_PRIORITY,
+//			task_uart_stk,
+//			TASK_UART_STACKSIZE,
+//			NULL,
+//			0);
+//
+	//alt_ucosii_check_return_code(err);
+
+	//---------------------------------------------------------------------------
+	//	TASK Shell 
+	//---------------------------------------------------------------------------                                                                
+//	err = OSTaskCreateExt(task_shell,
+//			NULL,
+//			(void *)&task_shell_stk[TASK_SHELL_STACKSIZE-1],
+//			TASK_SHELL_PRIORITY,
+//			TASK_SHELL_PRIORITY,
+//			task_shell_stk,
+//			TASK_SHELL_STACKSIZE,
+//			NULL,
+//			0);
+
+//	alt_ucosii_check_return_code(err);
+
+	//---------------------------------------------------------------------------
+	//	TASK 7 segment - for test
+	//---------------------------------------------------------------------------                                                                
+	//	err = OSTaskCreateExt(task_7seg,
+	//			NULL,
+	//			(void *)&task_7seg_stk[TASK_7SEG_STACKSIZE-1],
+	//			TASK_7SEG_PRIORITY,
+	//			TASK_7SEG_PRIORITY,
+	//			task_7seg_stk,
+	//			TASK_7SEG_STACKSIZE,
+	//			NULL,
+	//			0);
+	//
+	//	alt_ucosii_check_return_code(err);
+	
+}
+
+void event_create(void)
+{   
+//	SEM_JTAG_UART_READ = OSSemCreate(0);
+//	SEM_JTAG_UART_WRITE = OSSemCreate(0);
+	//	SEM_JTAG_UART = OSSemCreate(0);
+//	SEM_UART = OSSemCreate(0);
+	SEM_REPORT = OSSemCreate(0);
+}   

@@ -1,26 +1,26 @@
 what,kind,bundleId,bundleVersion,description,time
-started,bundle,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"org.eclipse.ui.workbench",1349399879381
-started,bundle,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.workbench.texteditor",1349399879382
-started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1349399879383
-started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1349399879383
-started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1349399879384
-started,bundle,com.altera.sbtgui.integration,10.0.0.218,"com.altera.sbtgui.integration",1349399879384
-started,bundle,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch",1349399879385
-started,bundle,com.altera.sbtgui.project,10.0.0.218,"com.altera.sbtgui.project",1349399879385
-started,bundle,com.altera.systemconsole,10.0.0.218,"com.altera.systemconsole",1349399879386
-started,bundle,com.altera.utilities,10.0.0.218,"com.altera.utilities",1349399879386
-os,sysinfo,,,"win32",1349399879388
-arch,sysinfo,,,"x86",1349399879388
-ws,sysinfo,,,"win32",1349399879388
-locale,sysinfo,,,"ko_KR",1349399879388
-processors,sysinfo,,,"4",1349399879388
-java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1349399879388
-java.runtime.version,sysinfo,,,"1.6.0_14-b08",1349399879388
-java.specification.name,sysinfo,,,"Java Platform API Specification",1349399879388
-java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1349399879388
-java.specification.version,sysinfo,,,"1.6",1349399879388
-java.vendor,sysinfo,,,"Sun Microsystems Inc.",1349399879388
-java.version,sysinfo,,,"1.6.0_14",1349399879388
-java.vm.info,sysinfo,,,"mixed mode",1349399879388
-java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1349399879388
-java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1349399879388
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350009456248
+activated,view,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.views.ProblemView",1350009459134
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350009460226
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350009461817
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1350009466029
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildAll",1350009466435
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350009466747
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350009475908
+activated,view,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.views.ProblemView",1350009477842
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1350009482787
+opened,editor,org.eclipse.cdt.make.ui,6.0.1.200909110608,"org.eclipse.cdt.make.editor",1350009483146
+activated,editor,org.eclipse.cdt.make.ui,6.0.1.200909110608,"org.eclipse.cdt.make.editor",1350009483255
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350009485065
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.findReplace",1350009485096
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350009489011
+activated,view,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.views.ProblemView",1350009494347
+activated,editor,org.eclipse.cdt.make.ui,6.0.1.200909110608,"org.eclipse.cdt.make.editor",1350009495725
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350009508470
+executed,command,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.edit.text.c.toggle.comment",1350009512960
+executed,command,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.edit.text.c.toggle.comment",1350009515410
+executed,command,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.edit.text.c.toggle.comment",1350009517842
+executed,command,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.edit.text.c.toggle.comment",1350009519518
+executed,command,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.edit.text.c.toggle.comment",1350009522306
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1350009530079
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350009535669

@@ -1,0 +1,46 @@
+/*
+ * report.c
+ *
+ *  Created on: 2012. 10. 03.
+ *      Author: ydj
+ */
+
+#include <stdio.h>
+#include <string.h>
+#include <io.h>
+#include "includes.h"
+#include "report.h"
+#include "alt_ucosii_simple_error_check.h"
+
+/*	semaphore declaration	*/
+OS_EVENT *SEM_REPORT;
+
+/*	Local function declaration	*/
+static void ViewLogo();
+
+/*-----------------------------------------------------------*/
+void task_report(void *parg)
+{
+	INT8U err;
+
+	ViewLogo();
+
+	for(;;)
+	{
+		OSSemPend(SEM_REPORT, 0, &err);
+
+		printf("report is done\n");
+
+		ViewLogo();
+//		OSTimeDlyHMSM(0, 0, 0, 0);
+	}
+}
+
+static void ViewLogo()
+{
+	printf("\n");
+	printf("***************************************************\n");
+	printf("*                        DE4_SSD                  *\n");
+	printf("***************************************************\n");
+}
+

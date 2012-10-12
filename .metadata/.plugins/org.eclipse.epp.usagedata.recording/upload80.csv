@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350047440369
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047442042
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047442042
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047442142
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047442142
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047442243
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047442243
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047442343
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047442350
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047442450
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047442450
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047442550
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047442550
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047442651
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047442651
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047442751
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047442751
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047442851
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047442852
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047442952
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047442952
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047443053
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047443053
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047443153
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047443153

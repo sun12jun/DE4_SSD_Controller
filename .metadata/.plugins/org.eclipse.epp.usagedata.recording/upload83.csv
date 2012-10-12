@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047449455
+error,log,,,"CPU architecture type not set. ",1350047449455
+error,log,,,"CPU master group not set.",1350047449455
+error,log,,,"SOPC design not set.",1350047449480
+error,log,,,"CPU module not set.",1350047449481
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047449481
+error,log,,,"CPU architecture type not set. ",1350047449481
+error,log,,,"CPU master group not set.",1350047449481
+error,log,,,"SOPC design not set.",1350047449533
+error,log,,,"CPU module not set.",1350047449533
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047449533
+error,log,,,"CPU architecture type not set. ",1350047449534
+error,log,,,"CPU master group not set.",1350047449534
+error,log,,,"SOPC design not set.",1350047449541
+error,log,,,"CPU module not set.",1350047449541
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047449542
+error,log,,,"CPU architecture type not set. ",1350047449542
+error,log,,,"CPU master group not set.",1350047449542
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047449542
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047449543
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047449557
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047449557
+error,log,,,"SOPC design not set.",1350047449570
+error,log,,,"CPU module not set.",1350047449570
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047449570

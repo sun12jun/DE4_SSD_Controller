@@ -1,0 +1,76 @@
+#ifndef _ISR_H_
+#define	_ISR_H_
+
+#include <stddef.h>
+#include "sys/alt_alarm.h"
+#include "sys/alt_warning.h"
+#include "os/alt_sem.h"
+#include "os/alt_flag.h"
+#include "sys/alt_dma.h"
+#include "altera_avalon_dma.h"
+
+#define ALTERA_AVALON_JTAG_UART_DEFAULT_TIMEOUT 10
+#define ALTERA_AVALON_JTAG_UART_BUF_LEN 2048
+/*
+ * ALT_JTAG_UART_READ_RDY and ALT_JTAG_UART_WRITE_RDY are the bitmasks 
+ * that define uC/OS-II event flags that are releated to this device.
+ *
+ * ALT_JTAG_UART_READ_RDY indicates that there is read data in the buffer 
+ * ready to be processed. ALT_JTAG_UART_WRITE_RDY indicates that the transmitter is
+ * ready for more data.
+ */
+#define ALT_JTAG_UART_READ_RDY  0x1
+#define ALT_JTAG_UART_WRITE_RDY 0x2
+#define ALT_JTAG_UART_TIMEOUT   0x4
+
+
+typedef struct alt_avn_jtag_uart_state_s
+{
+  unsigned int base;
+
+ 
+  unsigned int  timeout; /* timeout until host is assumed inactive */
+  alt_alarm     alarm;
+  unsigned int  irq_enable;
+  unsigned int  host_inactive;
+
+  alt_sem      (read_lock)
+  alt_sem      (write_lock)
+  alt_flag_grp (events)
+  
+  /* the variables below are volatile because they are modified by the
+   * interrupt routine.  making them volatile and reading them atomically
+   * means that we don't need any large critical sections.
+   */
+  volatile unsigned int rx_in;
+  unsigned int  rx_out;
+  unsigned int  tx_in;
+  volatile unsigned int tx_out;
+  char          rx_buf[altera_avalon_jtag_uart_buf_len];
+  char          tx_buf[altera_avalon_jtag_uart_buf_len];
+
+} alt_avn_jtag_uart_state;
+
+typedef struct dma_context_state_s
+{
+	alt_dma_txchan txchan;
+	alt_dma_rxchan rxchan;
+
+	volatile unsigned int src;
+	volatile unsigned int dst;
+	unsigned int len;
+
+	unsigned int dma_done;
+
+	void (*done_callback) (void *, void *);
+
+} dma_context_state;
+
+// interrupt context declaration
+volatile int edge_capture;
+dma_context_state *dma_context;
+//alt_avn_jtag_uart_state *jtag_uart_context;
+
+void init_interrupts();
+
+#endif // !_ISR_H_

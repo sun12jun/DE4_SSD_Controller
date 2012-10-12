@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350050253919
+error,log,,,"CPU architecture type not set. ",1350050253919
+error,log,,,"CPU master group not set.",1350050253920
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350050253920
+error,log,,,"SOPC design not set.",1350050253920
+error,log,,,"CPU module not set.",1350050253920
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350050253921
+error,log,,,"CPU architecture type not set. ",1350050253921
+error,log,,,"CPU master group not set.",1350050253921
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350050253921
+error,log,,,"SOPC design not set.",1350050253922
+error,log,,,"CPU module not set.",1350050253922
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350050253922
+error,log,,,"CPU architecture type not set. ",1350050253922
+error,log,,,"CPU master group not set.",1350050253923
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350050253923
+error,log,,,"SOPC design not set.",1350050253923
+error,log,,,"CPU module not set.",1350050253924
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350050253924
+error,log,,,"CPU architecture type not set. ",1350050253924
+error,log,,,"CPU master group not set.",1350050253924
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350050253925
+error,log,,,"SOPC design not set.",1350050253925
+error,log,,,"CPU module not set.",1350050253925
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350050253925

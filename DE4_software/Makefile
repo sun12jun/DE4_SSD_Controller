@@ -142,14 +142,12 @@ ELF := DE4_software.elf
 
 # Paths to C, C++, and assembly source files.
 C_SRCS += alt_ucosii_simple_error_check.c
+C_SRCS += dma.c
 C_SRCS += gpio_task.c
 C_SRCS += isr.c
-C_SRCS += jtag_uart.c
 C_SRCS += main.c
 C_SRCS += report.c
-C_SRCS += seven_seg_task.c
 C_SRCS += shell.c
-C_SRCS += uart.c
 CXX_SRCS :=
 ASM_SRCS :=
 

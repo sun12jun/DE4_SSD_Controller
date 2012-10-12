@@ -1,26 +1,26 @@
 what,kind,bundleId,bundleVersion,description,time
-activated,perspective,com.altera.sbtgui.ui,,"com.altera.sbtgui.ui.cPerspective",1349399177580
-started,bundle,org.eclipse.osgi,3.5.1.R35x_v20090827,"org.eclipse.osgi",1349399177581
-started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.101.R35x_v20090807-1100,"org.eclipse.equinox.simpleconfigurator",1349399177582
-started,bundle,com.ibm.icu,4.0.1.v20090822,"com.ibm.icu",1349399177583
-started,bundle,org.eclipse.cdt.core,5.1.1.200909110608,"org.eclipse.cdt.core",1349399177584
-started,bundle,org.eclipse.cdt.make.ui,6.0.1.200909110608,"org.eclipse.cdt.make.ui",1349399177586
-started,bundle,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui",1349399177588
-started,bundle,org.eclipse.core.contenttype,3.4.1.R35x_v20090826-0451,"org.eclipse.core.contenttype",1349399177589
-started,bundle,org.eclipse.core.databinding.observable,1.2.0.M20090902-0800,"org.eclipse.core.databinding.observable",1349399177591
-started,bundle,org.eclipse.core.expressions,3.4.100.v20090429-1800,"org.eclipse.core.expressions",1349399177591
-started,bundle,org.eclipse.core.filebuffers,3.5.0.v20090526-2000,"org.eclipse.core.filebuffers",1349399177592
-started,bundle,org.eclipse.core.filesystem,1.2.0.v20090507,"org.eclipse.core.filesystem",1349399177593
-started,bundle,org.eclipse.core.jobs,3.4.100.v20090429-1800,"org.eclipse.core.jobs",1349399177594
-started,bundle,org.eclipse.core.net,1.2.1.r35x_20090812-1200,"org.eclipse.core.net",1349399177595
-started,bundle,org.eclipse.core.resources,3.5.1.R35x_v20090826-0451,"org.eclipse.core.resources",1349399177596
-started,bundle,org.eclipse.core.runtime,3.5.0.v20090525,"org.eclipse.core.runtime",1349399177597
-started,bundle,org.eclipse.core.runtime.compatibility,3.2.0.v20090413,"org.eclipse.core.runtime.compatibility",1349399177597
-started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.100.v20090413,"org.eclipse.core.runtime.compatibility.auth",1349399177598
-started,bundle,org.eclipse.debug.core,3.5.0.v20090526-1600,"org.eclipse.debug.core",1349399177601
-started,bundle,org.eclipse.ecf.filetransfer,3.0.0.v20090831-1906,"org.eclipse.ecf.filetransfer",1349399177602
-started,bundle,org.eclipse.epp.usagedata.gathering,1.1.0.R200906100410,"org.eclipse.epp.usagedata.gathering",1349399177602
-started,bundle,org.eclipse.epp.usagedata.recording,1.1.0.R200906100410,"org.eclipse.epp.usagedata.recording",1349399177602
-started,bundle,org.eclipse.equinox.app,1.2.0.v20090520-1800,"org.eclipse.equinox.app",1349399177603
-started,bundle,org.eclipse.equinox.common,3.5.1.R35x_v20090807-1100,"org.eclipse.equinox.common",1349399177603
-started,bundle,org.eclipse.equinox.ds,1.1.1.R35x_v20090806,"org.eclipse.equinox.ds",1349399177604
+started,bundle,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"org.eclipse.ui.workbench",1349428509080
+started,bundle,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.workbench.texteditor",1349428509081
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1349428509081
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1349428509082
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1349428509082
+started,bundle,com.altera.sbtgui.integration,10.0.0.218,"com.altera.sbtgui.integration",1349428509082
+started,bundle,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch",1349428509083
+started,bundle,com.altera.sbtgui.project,10.0.0.218,"com.altera.sbtgui.project",1349428509084
+started,bundle,com.altera.systemconsole,10.0.0.218,"com.altera.systemconsole",1349428509084
+started,bundle,com.altera.utilities,10.0.0.218,"com.altera.utilities",1349428509085
+os,sysinfo,,,"win32",1349428509087
+arch,sysinfo,,,"x86",1349428509087
+ws,sysinfo,,,"win32",1349428509087
+locale,sysinfo,,,"ko_KR",1349428509087
+processors,sysinfo,,,"4",1349428509087
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1349428509087
+java.runtime.version,sysinfo,,,"1.6.0_14-b08",1349428509087
+java.specification.name,sysinfo,,,"Java Platform API Specification",1349428509087
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1349428509087
+java.specification.version,sysinfo,,,"1.6",1349428509087
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1349428509087
+java.version,sysinfo,,,"1.6.0_14",1349428509087
+java.vm.info,sysinfo,,,"mixed mode",1349428509087
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1349428509087
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1349428509087

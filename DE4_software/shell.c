@@ -7,17 +7,14 @@
 
 #include <stdio.h>
 #include <string.h>
+//#include <altera_avalon_jtag_uart_regs.h>
 #include <io.h>
 #include "includes.h"
 #include "shell.h"
 #include "my_ctype.h"
-#include "jtag_uart.h"
 #include "alt_ucosii_simple_error_check.h"
-#include <altera_avalon_jtag_uart_regs.h>
 
 /*	semaphore declaration	*/
-OS_EVENT *SEM_UART;
-
 
 /*-----------------------------------------------------------*/
 void task_shell(void *parg)
@@ -27,7 +24,7 @@ void task_shell(void *parg)
 
 	for(i=0;i<6;i++) token[i]=string[i];
 
-	ViewLogo1();
+	viewlogo();
 	printf("DE4_SSD > ");
 
 	i = 0;
@@ -45,7 +42,7 @@ void task_shell(void *parg)
 				if(num > 0) 
 					Interpreter(token, num);
 				else
-					ViewLogo1();
+					viewlogo();
 
 				printf("DE4_SSD > ");
 				i=0;
@@ -62,7 +59,7 @@ void task_shell(void *parg)
 }
 
 //-------------------------------------------------------------------------------
-void ViewLogo1()
+void viewlogo()
 {
 	printf("\n");
 	printf("***************************************************\n");
@@ -94,20 +91,15 @@ INT16U GetToken(INT8S **token, INT8S *string)
 
 void Interpreter(INT8S **token, INT16U num)
 {
-	INT32U param[5];
+//	INT32U param[5];
 
 	if(!strcmp(token[0],"") && num==1)
 	{
-		ViewLogo1();
+		viewlogo();
 	}
 	else if(!strcmp(token[0],"info") && num==1)
 	{
-		printf("\n");
-		printf("***************************\n");
-		printf("* SSD controller using FPGA\n");
-		printf("* Core : Nios2             \n");
-		printf("* Mem  : DDR2              \n");
-		printf("***************************\n");
+		get_info();
 	}
 	else
 		printf("\nInvalid Command\n");
@@ -165,6 +157,15 @@ INT32U StrToInt(INT8S *str, INT32U radix)
 	return result;
 }
 
+void get_info()
+{
+	printf("\n");
+	printf("***************************\n");
+	printf("* SSD controller using FPGA\n");
+	printf("* Core : Nios2             \n");
+	printf("* Mem  : DDR2              \n");
+	printf("***************************\n");
+}
 
 /*
 void task_shell(void *parg)

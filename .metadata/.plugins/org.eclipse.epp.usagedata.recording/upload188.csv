@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"CPU module not set.",1350053080328
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350053080328
+error,log,,,"CPU architecture type not set. ",1350053080329
+error,log,,,"CPU master group not set.",1350053080329
+error,log,,,"SOPC design not set.",1350053080368
+error,log,,,"CPU module not set.",1350053080368
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350053080368
+error,log,,,"CPU architecture type not set. ",1350053080369
+error,log,,,"CPU master group not set.",1350053080371
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350053081912
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1350053081930
+opened,view,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1350053084708
+started,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.ui",1350053084914
+started,bundle,org.eclipse.cdt.debug.mi.core,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.core",1350053084920
+activated,view,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1350053095339
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350053139678
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350053143004
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350053144177
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350053145863
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350053146893
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054058602
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054059678
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054060739
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054060926
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.ui",1350054061114

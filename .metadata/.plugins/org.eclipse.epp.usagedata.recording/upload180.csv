@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"CPU module not set.",1350053053379
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350053053379
+error,log,,,"CPU architecture type not set. ",1350053053379
+error,log,,,"CPU master group not set.",1350053053380
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350053053380
+error,log,,,"SOPC design not set.",1350053053380
+error,log,,,"CPU module not set.",1350053053380
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350053053381
+error,log,,,"CPU architecture type not set. ",1350053053381
+error,log,,,"CPU master group not set.",1350053053381
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350053053382
+error,log,,,"SOPC design not set.",1350053053383
+error,log,,,"CPU module not set.",1350053053383
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350053053383
+error,log,,,"CPU architecture type not set. ",1350053053384
+error,log,,,"CPU master group not set.",1350053053384
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350053053384
+error,log,,,"SOPC design not set.",1350053053384
+error,log,,,"CPU module not set.",1350053053385
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350053053385
+error,log,,,"CPU architecture type not set. ",1350053053385
+error,log,,,"CPU master group not set.",1350053053385
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350053053386
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350053053386
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350053053486

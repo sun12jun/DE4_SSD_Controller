@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"CPU architecture type not set. ",1350047456955
+error,log,,,"CPU master group not set.",1350047456955
+error,log,,,"SOPC design not set.",1350047456984
+error,log,,,"CPU module not set.",1350047456984
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047456984
+error,log,,,"CPU architecture type not set. ",1350047456985
+error,log,,,"CPU master group not set.",1350047456985
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047456985
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047456985
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047457004
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047457005
+error,log,,,"SOPC design not set.",1350047457016
+error,log,,,"CPU module not set.",1350047457016
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047457017
+error,log,,,"CPU architecture type not set. ",1350047457017
+error,log,,,"CPU master group not set.",1350047457017
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047457017
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047457018
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047457019
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047457019
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047457041
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047457041
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047457043
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047457043
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047457068

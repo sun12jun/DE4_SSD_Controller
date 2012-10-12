@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051319077
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051329540
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051331657
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051681222
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1350051683366
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051686700
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051686997
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051690138
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051692491
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildProject",1350051698242
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051698581
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051722200
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051723792
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051724803
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051724976
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.ui",1350051725145
+stopped,bundle,com.altera.debug.cdi.gdb.plugin,10.0.0.218,"com.altera.debug.cdi.gdb.plugin",1350051725145
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.debug.core"".",1350051725188
+error,log,,,"An exception occurred while dispatching debug events.",1350051725188
+stopped,bundle,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch",1350051726146
+stopped,bundle,org.eclipse.cdt.debug.mi.core,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.core",1350051726146
+stopped,bundle,org.eclipse.cdt.dsf.gdb.ui,2.0.0.200909110608,"org.eclipse.cdt.dsf.gdb.ui",1350051726147
+stopped,bundle,org.eclipse.cdt.dsf.ui,2.0.1.200909110608,"org.eclipse.cdt.dsf.ui",1350051726147
+stopped,bundle,com.altera.sbtgui.ui,10.0.0.218,"com.altera.sbtgui.ui",1350051726148
+stopped,bundle,com.altera.sbtgui.project,10.0.0.218,"com.altera.sbtgui.project",1350051726148

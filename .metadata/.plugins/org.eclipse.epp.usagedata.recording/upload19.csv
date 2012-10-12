@@ -1,26 +1,26 @@
 what,kind,bundleId,bundleVersion,description,time
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799589
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799590
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799690
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799690
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799790
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799790
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799890
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799890
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799990
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399799990
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800091
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800091
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800191
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800191
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800291
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800291
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800391
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800391
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800492
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800492
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800592
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800592
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800593
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800593
-error,log,,,"SOPC design not set.",1349399800733
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1350008117192
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350008118660
+executed,command,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.edit.text.c.toggle.comment",1350008125356
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1350008126263
+executed,command,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.edit.text.c.toggle.comment",1350008131175
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineStart",1350008133597
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1350008137131
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildAll",1350008137483
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008137793
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008140383
+activated,view,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.views.ProblemView",1350008142826
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350008144204
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1350008160086
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1350008161521
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1350008165171
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350008165936
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.select.lineStart",1350008170257
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1350008171146
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1350008172378
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1350008173377
+executed,command,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.edit.text.c.toggle.comment",1350008174999
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineStart",1350008181910
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.select.lineEnd",1350008182581
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1350008183470
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildAll",1350008184609

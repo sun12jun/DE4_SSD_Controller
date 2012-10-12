@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047417924
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047417925
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047417925
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047417949
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047417949
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047417949
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047417950
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047423044
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047423045
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047423083
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047423083
+error,log,,,"SOPC design not set.",1350047423084
+error,log,,,"CPU module not set.",1350047423085
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047423085
+error,log,,,"CPU architecture type not set. ",1350047423085
+error,log,,,"CPU master group not set.",1350047423085
+error,log,,,"SOPC design not set.",1350047423117
+error,log,,,"CPU module not set.",1350047423117
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047423117
+error,log,,,"CPU architecture type not set. ",1350047423118
+error,log,,,"CPU master group not set.",1350047423118
+error,log,,,"SOPC design not set.",1350047423195
+error,log,,,"CPU module not set.",1350047423195
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047423195
+error,log,,,"CPU architecture type not set. ",1350047423195

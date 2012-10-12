@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047449852
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047449853
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047449879
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047449879
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047449879
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047449879
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047454959
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047454959
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047454997
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047454997
+error,log,,,"SOPC design not set.",1350047454998
+error,log,,,"CPU module not set.",1350047454999
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047454999
+error,log,,,"CPU architecture type not set. ",1350047454999
+error,log,,,"CPU master group not set.",1350047454999
+error,log,,,"SOPC design not set.",1350047455031
+error,log,,,"CPU module not set.",1350047455031
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047455032
+error,log,,,"CPU architecture type not set. ",1350047455032
+error,log,,,"CPU master group not set.",1350047455032
+error,log,,,"SOPC design not set.",1350047455103
+error,log,,,"CPU module not set.",1350047455103
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047455103
+error,log,,,"CPU architecture type not set. ",1350047455103
+error,log,,,"CPU master group not set.",1350047455103

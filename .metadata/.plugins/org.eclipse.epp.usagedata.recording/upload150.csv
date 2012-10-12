@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,,,"AUTOGEN:::org.eclipse.cdt.debug.ui.CEditor.BreakpointRulerActions/org.eclipse.cdt.debug.ui.CEditor.RulerTobbleBreakpointAction",1350050390473
+opened,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350050392600
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350050392707
+executed,command,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.edit.text.c.toggle.comment",1350050440078
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1350050441597
+opened,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350050461838
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350050461915
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350050464328
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350050474086
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350050478956
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350050481290
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350050484630
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350050487728
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350050496185
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350050509767
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1350050534192
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350050537043
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350050540810
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.debug",1350050542273
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350050543418
+error,log,,,"Unable to open jtag uart",1350050543937
+error,log,,,"Cannot initialize the Nios II Console view for use. Byte stream service may still be open by another process like 'nios2-terminal'.",1350050543940
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350050545478
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350050549280
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350050551306

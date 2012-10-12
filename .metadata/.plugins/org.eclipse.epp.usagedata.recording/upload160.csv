@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.version,sysinfo,,,"1.6.0_14",1350051741403
+java.vm.info,sysinfo,,,"mixed mode",1350051741403
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1350051741403
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1350051741403
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1350051741403
+java.vm.specification.version,sysinfo,,,"1.0",1350051741403
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1350051741403
+java.vm.version,sysinfo,,,"14.0-b16",1350051741403
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1350051741702
+started,bundle,com.altera.sbtgui.core,10.0.0.218,"com.altera.sbtgui.core",1350051743485
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1350051743545
+opened,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1350051745435
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051745457
+started,bundle,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch",1350051745859
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051752233
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildProject",1350051755915
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051756237
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051769799
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051778620
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350051780632
+error,log,,,"SOPC design not set.",1350051782364
+error,log,,,"CPU module not set.",1350051782365
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350051782365
+error,log,,,"CPU architecture type not set. ",1350051782365
+error,log,,,"CPU master group not set.",1350051782365

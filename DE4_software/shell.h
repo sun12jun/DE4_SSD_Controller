@@ -25,8 +25,10 @@
 
 void task_shell(void *);
 
-void ViewLogo1();
-void ViewLogo2();
+
+void viewlogo();
+void get_info();
+//void ViewLogo2();
 
 INT16U GetToken(INT8S **token, INT8S *string);
 void Interpreter(INT8S **token, INT16U num);

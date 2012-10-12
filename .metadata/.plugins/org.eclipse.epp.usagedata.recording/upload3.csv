@@ -1,26 +1,26 @@
 what,kind,bundleId,bundleVersion,description,time
-started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1349399177630
-started,bundle,com.altera.sbtgui.integration,10.0.0.218,"com.altera.sbtgui.integration",1349399177630
-started,bundle,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch",1349399177631
-started,bundle,com.altera.sbtgui.project,10.0.0.218,"com.altera.sbtgui.project",1349399177632
-started,bundle,com.altera.sbtgui.ui,10.0.0.218,"com.altera.sbtgui.ui",1349399177632
-started,bundle,com.altera.systemconsole,10.0.0.218,"com.altera.systemconsole",1349399177632
-started,bundle,com.altera.utilities,10.0.0.218,"com.altera.utilities",1349399177633
-os,sysinfo,,,"win32",1349399177634
-arch,sysinfo,,,"x86",1349399177634
-ws,sysinfo,,,"win32",1349399177634
-locale,sysinfo,,,"ko_KR",1349399177634
-processors,sysinfo,,,"4",1349399177634
-java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1349399177634
-java.runtime.version,sysinfo,,,"1.6.0_14-b08",1349399177634
-java.specification.name,sysinfo,,,"Java Platform API Specification",1349399177634
-java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1349399177635
-java.specification.version,sysinfo,,,"1.6",1349399177635
-java.vendor,sysinfo,,,"Sun Microsystems Inc.",1349399177635
-java.version,sysinfo,,,"1.6.0_14",1349399177635
-java.vm.info,sysinfo,,,"mixed mode",1349399177635
-java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1349399177635
-java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1349399177635
-java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1349399177635
-java.vm.specification.version,sysinfo,,,"1.0",1349399177635
-java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1349399177635
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.0.v20090513-2000,"org.eclipse.ltk.core.refactoring",1350002792444
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.core",1350002792444
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.ui",1350002792444
+started,bundle,org.eclipse.mylyn.commons.net,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.commons.net",1350002792444
+started,bundle,org.eclipse.mylyn.commons.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.commons.ui",1350002792445
+started,bundle,org.eclipse.mylyn.context.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.core",1350002792445
+started,bundle,org.eclipse.mylyn.context.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.ui",1350002792446
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.monitor.ui",1350002792446
+started,bundle,org.eclipse.mylyn.tasks.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.tasks.ui",1350002792446
+started,bundle,org.eclipse.mylyn.team.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.team.ui",1350002792447
+started,bundle,org.eclipse.team.core,3.5.0.I20090527-0620,"org.eclipse.team.core",1350002792447
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1350002792448
+started,bundle,org.eclipse.team.cvs.ui,3.3.201.R35x_v20090826-0905,"org.eclipse.team.cvs.ui",1350002792448
+started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1350002792449
+started,bundle,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui",1350002792450
+started,bundle,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console",1350002792450
+started,bundle,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.editors",1350002792451
+started,bundle,org.eclipse.ui.forms,3.4.1.v20090714_35x,"org.eclipse.ui.forms",1350002792451
+started,bundle,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.ide",1350002792454
+started,bundle,org.eclipse.ui.intro,3.3.1.v20090805_35x,"org.eclipse.ui.intro",1350002792455
+started,bundle,org.eclipse.ui.intro.universal,3.2.300.v20090526,"org.eclipse.ui.intro.universal",1350002792455
+started,bundle,org.eclipse.ui.navigator,3.4.1.M20090911-1550,"org.eclipse.ui.navigator",1350002792455
+started,bundle,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.resources",1350002792455
+started,bundle,org.eclipse.ui.net,1.2.1.r35x_20090812-1200,"org.eclipse.ui.net",1350002792473
+started,bundle,org.eclipse.ui.views,3.4.1.M20090826-0800,"org.eclipse.ui.views",1350002792473

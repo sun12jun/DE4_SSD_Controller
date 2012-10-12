@@ -1,26 +1,26 @@
 what,kind,bundleId,bundleVersion,description,time
-error,log,,,"CPU module not set.",1349399800734
-error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1349399800734
-error,log,,,"CPU architecture type not set. ",1349399800734
-error,log,,,"CPU master group not set.",1349399800734
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800735
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399800735
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399802599
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399802600
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399802632
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399802632
-deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1349399802669
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399804348
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399804349
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807394
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807394
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807444
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807445
-error,log,,,"SOPC design not set.",1349399807446
-error,log,,,"CPU module not set.",1349399807447
-error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1349399807447
-error,log,,,"CPU architecture type not set. ",1349399807447
-error,log,,,"CPU master group not set.",1349399807447
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807448
-error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807448
-error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1349399807450
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008184936
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008192356
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1350008194727
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.select.lineEnd",1350008198065
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1350008198877
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1350008200140
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1350008201700
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1350008209422
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1350008213931
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1350008224383
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1350008225943
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1350008227440
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineStart",1350008228423
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1350008229702
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1350008233212
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1350008233477
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1350008233524
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1350008233805
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1350008233821
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1350008234226
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1350008237346
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildAll",1350008237799
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008238126
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008242057
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildAll",1350008257642

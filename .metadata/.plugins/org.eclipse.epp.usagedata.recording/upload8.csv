@@ -1,26 +1,26 @@
 what,kind,bundleId,bundleVersion,description,time
-started,bundle,org.eclipse.mylyn.commons.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.commons.ui",1349399503387
-started,bundle,org.eclipse.mylyn.context.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.core",1349399503387
-started,bundle,org.eclipse.mylyn.context.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.ui",1349399503388
-started,bundle,org.eclipse.mylyn.monitor.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.monitor.ui",1349399503388
-started,bundle,org.eclipse.mylyn.tasks.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.tasks.ui",1349399503389
-started,bundle,org.eclipse.mylyn.team.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.team.ui",1349399503389
-started,bundle,org.eclipse.team.core,3.5.0.I20090527-0620,"org.eclipse.team.core",1349399503390
-started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1349399503391
-started,bundle,org.eclipse.team.cvs.ui,3.3.201.R35x_v20090826-0905,"org.eclipse.team.cvs.ui",1349399503392
-started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1349399503392
-started,bundle,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui",1349399503396
-started,bundle,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console",1349399503396
-started,bundle,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.editors",1349399503397
-started,bundle,org.eclipse.ui.forms,3.4.1.v20090714_35x,"org.eclipse.ui.forms",1349399503397
-started,bundle,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.ide",1349399503398
-started,bundle,org.eclipse.ui.intro,3.3.1.v20090805_35x,"org.eclipse.ui.intro",1349399503398
-started,bundle,org.eclipse.ui.intro.universal,3.2.300.v20090526,"org.eclipse.ui.intro.universal",1349399503398
-started,bundle,org.eclipse.ui.navigator,3.4.1.M20090911-1550,"org.eclipse.ui.navigator",1349399503399
-started,bundle,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.resources",1349399503399
-started,bundle,org.eclipse.ui.net,1.2.1.r35x_20090812-1200,"org.eclipse.ui.net",1349399503399
-started,bundle,org.eclipse.ui.views,3.4.1.M20090826-0800,"org.eclipse.ui.views",1349399503400
-started,bundle,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"org.eclipse.ui.workbench",1349399503400
-started,bundle,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.workbench.texteditor",1349399503401
-started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1349399503401
-started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1349399503402
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350003034975
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350003035075
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350003035175
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350003035175
+started,bundle,org.eclipse.cdt.launch,6.0.0.200909110608,"org.eclipse.cdt.launch",1350003035370
+error,log,,,"sun.awt.X11.XlibWrapper",1350003036438
+error,log,,,"SOPC design not set.",1350003038183
+error,log,,,"CPU module not set.",1350003038183
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350003038183
+error,log,,,"CPU architecture type not set. ",1350003038184
+error,log,,,"CPU master group not set.",1350003038184
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350003038184
+started,bundle,com.altera.debug.cdi.gdb.plugin,10.0.0.218,"com.altera.debug.cdi.gdb.plugin",1350003041540
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350003041605
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350003041605
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350003041649
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350003041649
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350003041675
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350003041708
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350003068086
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350003068134
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1350003068154
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350003072670
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350003074659
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1350003076376

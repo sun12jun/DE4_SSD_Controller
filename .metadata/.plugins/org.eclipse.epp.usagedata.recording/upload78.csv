@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"CPU architecture type not set. ",1350047432805
+error,log,,,"CPU master group not set.",1350047432806
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047432806
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047432806
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047432808
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047432808
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047432834
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047432834
+error,log,,,"SOPC design not set.",1350047432835
+error,log,,,"CPU module not set.",1350047432835
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047432835
+error,log,,,"CPU architecture type not set. ",1350047432835
+error,log,,,"CPU master group not set.",1350047432836
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047432836
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047432836
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047432837
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047432837
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047432862
+error,log,,,"System timestamp mismatch - connected: ""1349258764"", expected: ""1350018524"".",1350047432863
+error,log,,,"SOPC design not set.",1350047432863
+error,log,,,"CPU module not set.",1350047432863
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047432863
+error,log,,,"CPU architecture type not set. ",1350047432864
+error,log,,,"CPU master group not set.",1350047432864
+error,log,,,"System ID mismatch - connected: ""0x5c00298c"", expected: ""0x4f7d0c2e"". ",1350047432864

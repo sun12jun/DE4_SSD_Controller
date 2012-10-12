@@ -1,0 +1,12 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"An exception occurred while dispatching debug events.",1350047504985
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.debug.core"".",1350047505988
+stopped,bundle,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch",1350047505988
+stopped,bundle,org.eclipse.cdt.debug.mi.core,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.core",1350047505988
+error,log,,,"An exception occurred while dispatching debug events.",1350047505997
+stopped,bundle,org.eclipse.cdt.dsf.gdb.ui,2.0.0.200909110608,"org.eclipse.cdt.dsf.gdb.ui",1350047506012
+stopped,bundle,org.eclipse.cdt.dsf.ui,2.0.1.200909110608,"org.eclipse.cdt.dsf.ui",1350047506038
+stopped,bundle,com.altera.sbtgui.ui,10.0.0.218,"com.altera.sbtgui.ui",1350047506038
+stopped,bundle,com.altera.sbtgui.project,10.0.0.218,"com.altera.sbtgui.project",1350047506038
+stopped,bundle,org.eclipse.cdt.launch,6.0.0.200909110608,"org.eclipse.cdt.launch",1350047506038
+stopped,bundle,org.eclipse.cdt.debug.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.ui",1350047506038

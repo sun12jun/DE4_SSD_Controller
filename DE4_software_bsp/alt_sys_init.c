@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu' in SOPC Builder design 'DE4_SOPC'
  * SOPC Builder design path: C:/Users/ydj/Workspace/DE4_DDR2_NIOS10.1/DE4_SOPC.sopcinfo
  *
- * Generated: Fri Oct 05 09:36:27 KST 2012
+ * Generated: Sat Oct 13 00:01:21 KST 2012
  */
 
 /*
@@ -59,6 +59,7 @@
  */
 
 #include "altera_nios2_irq.h"
+#include "altera_avalon_dma.h"
 #include "altera_avalon_jtag_uart.h"
 #include "altera_avalon_sysid.h"
 #include "altera_avalon_timer.h"
@@ -68,6 +69,7 @@
  */
 
 ALTERA_NIOS2_IRQ_INSTANCE ( CPU, cpu);
+ALTERA_AVALON_DMA_INSTANCE ( DMA_0, dma_0);
 ALTERA_AVALON_JTAG_UART_INSTANCE ( JTAG_UART, jtag_uart);
 ALTERA_AVALON_SYSID_INSTANCE ( SYSID, sysid);
 ALTERA_AVALON_TIMER_INSTANCE ( TIMER, timer);
@@ -94,6 +96,7 @@ void alt_irq_init ( const void* base )
 void alt_sys_init( void )
 {
     ALTERA_AVALON_TIMER_INIT ( TIMER, timer);
+    ALTERA_AVALON_DMA_INIT ( DMA_0, dma_0);
     ALTERA_AVALON_JTAG_UART_INIT ( JTAG_UART, jtag_uart);
     ALTERA_AVALON_SYSID_INIT ( SYSID, sysid);
 }

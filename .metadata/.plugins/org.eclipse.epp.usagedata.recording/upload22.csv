@@ -1,26 +1,26 @@
 what,kind,bundleId,bundleVersion,description,time
-error,log,,,"CPU master group not set.",1349399808841
-error,log,,,"SOPC design not set.",1349399808871
-error,log,,,"CPU module not set.",1349399808871
-error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1349399808871
-error,log,,,"CPU architecture type not set. ",1349399808872
-error,log,,,"CPU master group not set.",1349399808872
-error,log,,,"SOPC design not set.",1349399808910
-error,log,,,"CPU module not set.",1349399808910
-error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1349399808910
-error,log,,,"CPU architecture type not set. ",1349399808910
-error,log,,,"CPU master group not set.",1349399808911
-error,log,,,"SOPC design not set.",1349399809011
-error,log,,,"CPU module not set.",1349399809012
-error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1349399809012
-error,log,,,"CPU architecture type not set. ",1349399809012
-error,log,,,"CPU master group not set.",1349399809012
-error,log,,,"SOPC design not set.",1349399809108
-error,log,,,"CPU module not set.",1349399809108
-error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1349399809109
-error,log,,,"CPU architecture type not set. ",1349399809109
-error,log,,,"CPU master group not set.",1349399809109
-error,log,,,"SOPC design not set.",1349399809178
-error,log,,,"CPU module not set.",1349399809178
-error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1349399809179
-error,log,,,"CPU architecture type not set. ",1349399809179
+executed,command,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.edit.text.c.toggle.comment",1350008349422
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1350008349921
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildAll",1350008369390
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008369702
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008382000
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1350008383497
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008386274
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008388131
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1350008389472
+activated,view,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1350008391048
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1350008394357
+activated,view,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1350008400678
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1350008412503
+executed,command,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.edit.text.c.toggle.comment",1350008432409
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1350008433157
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildAll",1350008434015
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008434343
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008438134
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1350008440645
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008443578
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350008445403
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1350008446761
+activated,view,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1350008448352
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1350008451614
+activated,view,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1350008457904

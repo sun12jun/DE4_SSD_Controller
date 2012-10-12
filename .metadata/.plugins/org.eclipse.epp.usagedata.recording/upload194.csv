@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1350054071441
+java.version,sysinfo,,,"1.6.0_14",1350054071441
+java.vm.info,sysinfo,,,"mixed mode",1350054071441
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1350054071441
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1350054071441
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1350054071441
+java.vm.specification.version,sysinfo,,,"1.0",1350054071441
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1350054071441
+java.vm.version,sysinfo,,,"14.0-b16",1350054071441
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1350054071706
+started,bundle,com.altera.sbtgui.core,10.0.0.218,"com.altera.sbtgui.core",1350054072611
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1350054072673
+opened,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1350054075356
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054075388
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054075684
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054079756
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054081971
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054087353
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054088781
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054088874
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054090356
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054090731
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054091232
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054091292
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350054092805

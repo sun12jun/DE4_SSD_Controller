@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"CPU module not set.",1350047611496
+error,log,,,"The SOPC design does not contain a CPU of a support architecture.",1350047611496
+error,log,,,"CPU architecture type not set. ",1350047611496
+error,log,,,"CPU master group not set.",1350047611496
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350047612930
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1350047612952
+opened,view,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1350047615802
+started,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.ui",1350047616004
+started,bundle,org.eclipse.cdt.debug.mi.core,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.core",1350047616010
+activated,view,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1350047626174
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1350047659161
+activated,view,com.altera.sbtgui.launch,10.0.0.218,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1350047660514
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350047672800
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350047785442
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1350047786402
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350047788681
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350047790945
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.debug",1350047792527
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350047794809
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350047796425
+error,log,,,"Unable to open jtag uart",1350047796459
+error,log,,,"Cannot initialize the Nios II Console view for use. Byte stream service may still be open by another process like 'nios2-terminal'.",1350047796462
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350047796803
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350047802760
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1350047805748
