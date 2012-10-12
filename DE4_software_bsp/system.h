@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu' in SOPC Builder design 'DE4_SOPC'
  * SOPC Builder design path: C:/Users/ydj/Workspace/DE4_DDR2_NIOS10.1/DE4_SOPC.sopcinfo
  *
- * Generated: Sat Oct 13 00:01:21 KST 2012
+ * Generated: Sat Oct 13 01:29:55 KST 2012
  */
 
 /*
@@ -462,7 +462,7 @@
 #define SYSID_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_NAME "/dev/sysid"
 #define SYSID_SPAN 8
-#define SYSID_TIMESTAMP 1350053308u
+#define SYSID_TIMESTAMP 1350058758u
 #define SYSID_TYPE "altera_avalon_sysid"
 
 

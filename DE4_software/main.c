@@ -8,7 +8,7 @@
 #include <io.h>
 #include "includes.h"
 #include "shell.h"
-//#include "dma.h"
+#include "dma.h"
 #include "isr.h"
 #include "tasks.h"
 #include "report.h"
@@ -18,12 +18,12 @@
 #define   TASK_GPIO_STACKSIZE       1024
 #define   TASK_SHELL_STACKSIZE      1024
 #define   TASK_REPORT_STACKSIZE      1024
-//#define   TASK_DMA_STACKSIZE      1024
+#define   TASK_DMA_STACKSIZE      1024
 #define   TASK_START_STACKSIZE     128 
 
 OS_STK    task_gpio_stk[TASK_GPIO_STACKSIZE];
 OS_STK    task_shell_stk[TASK_SHELL_STACKSIZE];
-//OS_STK    task_dma_stk[TASK_DMA_STACKSIZE];
+OS_STK    task_dma_stk[TASK_DMA_STACKSIZE];
 OS_STK    task_report_stk[TASK_REPORT_STACKSIZE];
 OS_STK    task_start_stk[TASK_START_STACKSIZE];
 
@@ -31,8 +31,8 @@ OS_STK    task_start_stk[TASK_START_STACKSIZE];
 #define TASK_SHELL_PRIORITY    	1
 #define TASK_REPORT_PRIORITY    2
 #define TASK_GPIO_PRIORITY     	3
-//#define	TASK_DMA_PRIORITY		4
-#define TASK_START_PRIORITY    	4
+#define	TASK_DMA_PRIORITY		4
+#define TASK_START_PRIORITY    	5
 
 /*	Task Declaration	*/
 void task_start(void *);
@@ -41,7 +41,7 @@ void task_start(void *);
 //OS_EVENT *SEM_JTAG_UART;
 //OS_EVENT *SEM_UART;
 OS_EVENT *SEM_REPORT;
-//OS_EVENT *SEM_DMA0;
+OS_EVENT *SEM_DMA0;
 
 /*	Local Function Declaration	*/
 void task_create(void);
@@ -158,18 +158,18 @@ void task_create(void)
 	//---------------------------------------------------------------------------
 	//	TASK DMA 0
 	//---------------------------------------------------------------------------                                                                
-//	err = OSTaskCreateExt(task_dma,
-//			NULL,
-//			(void *)&task_dma_stk[TASK_DMA_STACKSIZE-1],
-//			TASK_DMA_PRIORITY,
-//			TASK_DMA_PRIORITY,
-//			task_dma_stk,
-//			TASK_DMA_STACKSIZE,
-//			NULL,
-//			0);
-//
+	err = OSTaskCreateExt(task_dma,
+			NULL,
+			(void *)&task_dma_stk[TASK_DMA_STACKSIZE-1],
+			TASK_DMA_PRIORITY,
+			TASK_DMA_PRIORITY,
+			task_dma_stk,
+			TASK_DMA_STACKSIZE,
+			NULL,
+			0);
+
 //	alt_ucosii_check_return_code(err);
-//
+
 }
 
 void event_create(void)

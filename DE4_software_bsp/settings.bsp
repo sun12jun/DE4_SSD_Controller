@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/schema">
         <BspType>ucosii</BspType>
         <BspVersion>10.0</BspVersion>
-        <BspGeneratedTimeStamp>2012. 10. 13 오전 12:01:21</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1350054081097</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>2012. 10. 13 오전 1:30:30</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1350059430875</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\ydj\Workspace\DE4_DDR2_NIOS10.1\software\DE4_software_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\DE4_SOPC.sopcinfo</SopcDesignFile>

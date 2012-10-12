@@ -1,0 +1,40 @@
+#
+# Normal rules
+#
+.*
+*.o
+*.o.*
+*.a
+*.s
+*.ko
+*.i
+*.gz
+*.bz2
+*.lzma
+*.xz
+*.lzo
+*.patch
+*.dis
+core.*
+~$*
+
+#
+# Top-level generic files
+#
+/tags
+
+
+#
+# git files that we don't want to ignore even it they are dot-files
+#
+!.gitignore
+!.mailmap
+
+# cscope files
+cscope.*
+
+# excluded folder
+.metadata
+.project
+.cproject
+obj

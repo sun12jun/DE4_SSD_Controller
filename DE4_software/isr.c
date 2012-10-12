@@ -16,23 +16,23 @@
 
 /*	semaphore declaration	*/
 extern	OS_EVENT *SEM_REPORT;
-//extern	OS_EVENT *SEM_DMA0;
+extern	OS_EVENT *SEM_DMA0;
 //extern	OS_EVENT *SEM_JTAG_UART;
 //extern	OS_EVENT *SEM_UART;
 
 /* initialization & interrupt registration fuction declaration */
 static void init_button_pio();
-//static void init_dma0();
+static void init_dma0();
 //static void init_jtag_uart();
 
 /* interrupt handler declaration */
-//static void	handle_dma0_interrupt(void* context);
+static void	handle_dma0_interrupt(void* context);
 static void handle_button_interrupt(void* context);
 //static void handle_uart_interrupt(void *context);
 //static void handle_jtag_uart_interrupt(void* context);
 
 /* peripheral control function declaration */
-//void dma_done_func(void* handle, void* data);
+void dma_done_func(void* handle, void* data);
 //static int jtag_uart_init(alt_avn_jtag_uart_state* sp, int flags);
 //static int jtag_uart_close(alt_avn_jtag_uart_state* sp, int flags);
 //static alt_u32 jtag_uart_timeout(void* context);
@@ -42,101 +42,103 @@ void init_interrupts()
 {
 
 	init_button_pio();
-	//init_dma0();
+	init_dma0();
 
 	//init_jtag_uart();
-	
 }
-//
-//void dma_done_func(void* handle, void* data)
-//{
-//	dma_context->dma_done = 1;
-//	OSSemPost(SEM_DMA0);
-//}
-//
-//static void init_dma0()
-//{
-//	/* initialize interrupt context	*/
-//	if ((dma_context->txchan = alt_dma_txchan_open("/dev/dma_0")) == NULL)
-//	{
-//		printf ("Failed to open transmit channel\n");
-//		exit (1);
-//	}
-//
-//	if ((dma_context->rxchan = alt_dma_rxchan_open("/dev/dma_0")) == NULL)
-//	{
-//		printf ("Failed to open receive channel\n");
-//		exit (1);
-//	}
-//
-//	dma_context->src = DMA_0_READ_MASTER_SRC_ON_CHIP_BASE;
-//	dma_context->dst = DMA_0_WRITE_MASTER_DST_ON_CHIP_BASE;
-//	//dma_context->len = (1 << (DMA_0_LENGTHWIDTH - 1)) - 1; // 32KB
-//	dma_context->len = 128; // 32KB
-//	dma_context->dma_done = 0;
-//	dma_context->done_callback = dma_done_func;
-//
-//	/* Halt any current transactions (reset the device) */
-//	IOWR_ALTERA_AVALON_DMA_CONTROL (DMA_0_BASE, ALTERA_AVALON_DMA_CONTROL_SOFTWARERESET_MSK);
-//	IOWR_ALTERA_AVALON_DMA_CONTROL (DMA_0_BASE, ALTERA_AVALON_DMA_CONTROL_SOFTWARERESET_MSK);
-//
-//	/* Set the default mode of the device (32 bit block reads and writes from/to memory). */
-//	IOWR_ALTERA_AVALON_DMA_CONTROL (DMA_0_BASE,
-//			ALTERA_AVALON_DMA_CONTROL_WORD_MSK      |
-//			ALTERA_AVALON_DMA_CONTROL_GO_MSK        |
-//			ALTERA_AVALON_DMA_CONTROL_I_EN_MSK      |
-//			ALTERA_AVALON_DMA_CONTROL_REEN_MSK      |
-//			ALTERA_AVALON_DMA_CONTROL_WEEN_MSK      |
-//			ALTERA_AVALON_DMA_CONTROL_LEEN_MSK);
-//
-//	/* Clear any pending interrupts and the DONE flag */
-//	IOWR_ALTERA_AVALON_DMA_STATUS (DMA_0_BASE, 0);
-//
-//	/* kick off the transfer */
-//	alt_dma_txchan_send(dma_context->txchan, 
-//			(void *)dma_context->src, 
-//			dma_context->len, 
-//			NULL, 
-//			NULL);
-//
-//	alt_dma_rxchan_prepare(dma_context->rxchan, 
-//						   (void *)dma_context->dst, 
-//						   dma_context->len, 
-//						   dma_context->done_callback, 
-//						   NULL);
-//
-//	/* Register the ISR. */
-//	alt_ic_isr_register(DMA_0_IRQ_INTERRUPT_CONTROLLER_ID,
-//			DMA_0_IRQ,
-//			handle_dma0_interrupt,
-//			(void*)dma_context, 0x0);
-//}
-//
-//static void	handle_dma0_interrupt(void* context)
-//{
-//	alt_irq_context        cpu_sr;
-//	dma_context_state *dma_context_int = (dma_context_state *)context;
-//
-//	dma_context_int->dma_done = 0;
-//
-//	// relaunch dma transfer
-//	alt_dma_txchan_send(dma_context_int->txchan, 
-//						(void *)dma_context_int->src, 
-//						dma_context_int->len, 
-//						NULL, 
-//						NULL);
-//
-//	alt_dma_rxchan_prepare(dma_context_int->rxchan, 
-//						   (void *)dma_context_int->dst, 
-//						   dma_context_int->len, 
-//						   dma_context_int->done_callback, 
-//						   NULL);
-//
-//	cpu_sr = alt_irq_disable_all();
-//	alt_irq_enable_all(cpu_sr);
-//
-//	//OSSemPost(SEM_DMA0);
-//}
+
+void dma_done_func(void* handle, void* data)
+{
+	dma_context->dma_done = 1;
+	//OSSemPost(SEM_DMA0);
+}
+
+static void init_dma0()
+{
+	/* initialize interrupt context	*/
+	if ((dma_context->txchan = alt_dma_txchan_open("/dev/dma_0")) == NULL)
+	{
+		printf ("Failed to open transmit channel\n");
+		exit (1);
+	}
+
+	if ((dma_context->rxchan = alt_dma_rxchan_open("/dev/dma_0")) == NULL)
+	{
+		printf ("Failed to open receive channel\n");
+		exit (1);
+	}
+
+	dma_context->src = DMA_0_READ_MASTER_SRC_ON_CHIP_BASE;
+	dma_context->dst = DMA_0_WRITE_MASTER_DST_ON_CHIP_BASE;
+	//dma_context->len = (1 << (DMA_0_LENGTHWIDTH - 1)) - 1; // 32KB
+	dma_context->len = 32; // 32KB
+	dma_context->dma_done = 0;
+	dma_context->done_callback = dma_done_func;
+
+	/* Halt any current transactions (reset the device) */
+	//IOWR_ALTERA_AVALON_DMA_CONTROL (DMA_0_BASE, ALTERA_AVALON_DMA_CONTROL_SOFTWARERESET_MSK);
+	IOWR_ALTERA_AVALON_DMA_CONTROL (DMA_0_BASE, ALTERA_AVALON_DMA_CONTROL_SOFTWARERESET_MSK);
+
+	/* Set the default mode of the device (32 bit block reads and writes from/to memory). */
+	IOWR_ALTERA_AVALON_DMA_CONTROL (DMA_0_BASE,
+			ALTERA_AVALON_DMA_CONTROL_WORD_MSK      |
+			ALTERA_AVALON_DMA_CONTROL_GO_MSK        |
+			ALTERA_AVALON_DMA_CONTROL_I_EN_MSK      |
+			ALTERA_AVALON_DMA_CONTROL_REEN_MSK      |
+			ALTERA_AVALON_DMA_CONTROL_WEEN_MSK      |
+			ALTERA_AVALON_DMA_CONTROL_LEEN_MSK);
+
+	/* Clear any pending interrupts and the DONE flag */
+	IOWR_ALTERA_AVALON_DMA_STATUS (DMA_0_BASE, 0);
+
+	/* kick off the transfer */
+	if(alt_dma_txchan_send(dma_context->txchan, 
+			(void *)dma_context->src, 
+			dma_context->len, 
+			NULL, 
+			NULL) < 0)
+		printf("dma tx channel open error\n");
+
+	if(alt_dma_rxchan_prepare(dma_context->rxchan, 
+						   (void *)dma_context->dst, 
+						   dma_context->len, 
+						   dma_context->done_callback, 
+						   NULL) < 0)
+		printf("dma rx channel open error\n");
+
+
+	/* Register the ISR. */
+	alt_ic_isr_register(DMA_0_IRQ_INTERRUPT_CONTROLLER_ID,
+			DMA_0_IRQ,
+			handle_dma0_interrupt,
+			(void*)dma_context, 0x0);
+}
+
+static void	handle_dma0_interrupt(void* context)
+{
+	alt_irq_context        cpu_sr;
+	dma_context_state *dma_context_int = (dma_context_state *)context;
+
+	dma_context_int->dma_done = 0;
+
+	// relaunch dma transfer
+	alt_dma_txchan_send(dma_context_int->txchan, 
+						(void *)dma_context_int->src, 
+						dma_context_int->len, 
+						NULL, 
+						NULL);
+
+	alt_dma_rxchan_prepare(dma_context_int->rxchan, 
+						   (void *)dma_context_int->dst, 
+						   dma_context_int->len, 
+						   dma_context_int->done_callback, 
+						   NULL);
+
+	cpu_sr = alt_irq_disable_all();
+	alt_irq_enable_all(cpu_sr);
+
+	OSSemPost(SEM_DMA0);
+}
 
 static void handle_button_interrupt(void* context)
 {

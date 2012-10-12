@@ -167,6 +167,35 @@ void get_info()
 	printf("***************************\n");
 }
 
+void mem_display(INT32U BaseAddr)
+{
+	volatile INT32U* piBase;
+	volatile INT8U* pcBase;
+	INT8U i, j;
+	INT8U md[64];
+
+	piBase = (volatile INT32U*)(BaseAddr);
+	pcBase = (volatile INT8U*)(BaseAddr);
+
+	if(BaseAddr & 0x3 != 0)
+	{
+		printf("\nPlease address align by word size");
+		return;
+	}
+
+	for(i = 0; i < 16; i++)
+	{
+		printf("\n%08lx: %08lx %08lx %08lx %08lx    ", piBase, *piBase, *(piBase+1), *(piBase+2), *(piBase+3)); // 4 byte display(integer)
+		piBase += 4;
+
+		for(j = 0; j < 16; j++) // 4 byte display(ascii)
+		{
+			printf((isprint(*(pcBase)) && (*(pcBase) < 0x80))? *(pcBase) : '.');
+			pcBase++;
+		}
+	}	 
+}
+
 /*
 void task_shell(void *parg)
 {
